@@ -4,7 +4,7 @@
 	<meta charset='utf-8' />
 	<meta name='viewport' content='width=device-width, user-scalable=no' />
 	<link id='-gd-engine-icon' rel='icon' type='image/png' href='favicon.png' />
-	<title>attention_please_v1_2</title>
+	<title>attention_please_v1</title>
 	<style type='text/css'>
 
 		body {
@@ -14,9 +14,6 @@
 			padding: 0;
 			text-align: center;
 			background-color: black;
-			background-image: url(attention_please.png);
-			background-position: center;
-			background-repeat: no-repeat;
 		}
 
 		#canvas {
@@ -58,8 +55,8 @@
 		#status-progress {
 			width: 366px;
 			height: 7px;
-			background-color: #b84a3c;
-			border: 1px solid #6e6e6e;
+			background-color: #38363A;
+			border: 1px solid #444246;
 			padding: 1px;
 			box-shadow: 0 0 2px 1px #1B1C22;
 			border-radius: 2px;
@@ -214,7 +211,7 @@
 					Array.prototype.slice.call(statusIndeterminate.children).forEach(child => {
 						child.style.borderTopColor = '';
 					});
-					statusIndeterminate.children[i].style.borderTopColor = '#000000';
+					statusIndeterminate.children[i].style.borderTopColor = '#dfdfdf';
 				}
 			}
 

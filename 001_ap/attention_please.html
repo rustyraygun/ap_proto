@@ -14,6 +14,9 @@
 			padding: 0;
 			text-align: center;
 			background-color: black;
+            background-image: url(attention_please.png);
+            background-repeat: no-repeat;
+            background-position: center;
 		}
 
 		#canvas {
@@ -55,8 +58,8 @@
 		#status-progress {
 			width: 366px;
 			height: 7px;
-			background-color: #38363A;
-			border: 1px solid #444246;
+			background-color: #ca5849;
+			border: 1px solid #6d6d6d;
 			padding: 1px;
 			box-shadow: 0 0 2px 1px #1B1C22;
 			border-radius: 2px;
@@ -211,7 +214,7 @@
 					Array.prototype.slice.call(statusIndeterminate.children).forEach(child => {
 						child.style.borderTopColor = '';
 					});
-					statusIndeterminate.children[i].style.borderTopColor = '#dfdfdf';
+					statusIndeterminate.children[i].style.borderTopColor = '#000000';
 				}
 			}
 
